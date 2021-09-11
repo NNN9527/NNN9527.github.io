@@ -1,0 +1,3 @@
+pandas==0.25.1
+streamlit==0.77.0
+numpy==1.17.4+mkl
