@@ -30,20 +30,20 @@ for i in range(3):
   bar.progress(i + 1)
   time.sleep(0.1)
 
-st.write('欢迎来到跑路天堂9527！！！！！！', color)
+st.write('欢迎来到跑路天堂9527！！！！！！')
 for i in range(3):
   # Update the progress bar with each iteration.
   latest_iteration.text(f'Iteration {i+1}')
   bar.progress(i + 1)
   time.sleep(0.1)
   
-st.write('早上好，打工人！！！', color)
+st.write('早上好，打工人！！！')
 for i in range(3):
   # Update the progress bar with each iteration.
   latest_iteration.text(f'Iteration {i+1}')
   bar.progress(i + 1)
   time.sleep(0.1)
-st.write('三点几啦，该起床读书啦！！！', color)
+st.write('三点几啦，该起床读书啦！！！')
 
 
 st.button('点我开启时间循环！！！！！')
