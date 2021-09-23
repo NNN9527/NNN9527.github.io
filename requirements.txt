@@ -1,0 +1,6 @@
+streamlit==0.77.0
+pandas==0.25.1
+numpy==1.17.4+mkl
+~pencv_contrib_python==4.1.1.26
+mysql_connector_repackaged==0.3.1
+paho_mqtt==1.5.1
