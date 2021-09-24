@@ -126,7 +126,7 @@ def sidebar():#左边菜单控制栏0
     else:pass
     if option_function =='小说':
          components.iframe("https://m.ddyueshu.com/wapbook/11508_655702269_3.html"
-                  ,height=3600,width=400, )
+                  ,height=3800,width=300, )
     else:pass
     if option_function =='视频':
          components.iframe("https://www.bilibili.com/video/BV1i5411K7cY?spm_id_from=333.851.b_7265636f6d6d656e64.1"
