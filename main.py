@@ -1,6 +1,6 @@
 import streamlit as st
 import qrcode
-import pyzbar.pyzbar as pyzbar
+import pyzbar
 import numpy as np
 from PIL import Image
 import cv2
