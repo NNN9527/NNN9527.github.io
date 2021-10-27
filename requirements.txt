@@ -1,3 +1,2 @@
-streamlit_nightly==1.0.1.dev20211008
 mysql_connector_repackaged==0.3.1
-streamlit==1.1.0
+streamlit==1.0.0
