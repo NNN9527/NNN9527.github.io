@@ -84,8 +84,8 @@ class MysqlGroup(object):
             "UPDATE novel SET %s = %s WHERE id = '%s' "%(parameter1, parameter2, parameter3))
         self.mydb.commit()
 
-con1 = MysqlGroup('http://9527nnn.free.idcfengye.com', 'root', 'c798658613!', 'streamlifrontend', 'utf8')
-con2 = MysqlGroup('http://9527nnn.free.idcfengye.com', 'root', 'c798658613!', 'streamlit_reptile', 'utf8')
+con1 = MysqlGroup('127.0.0.1', 'root', 'c798658613!', 'streamlifrontend', 'utf8')
+con2 = MysqlGroup('127.0.0.1', 'root', 'c798658613!', 'streamlit_reptile', 'utf8')
 shebeiid_number = con1.shebeiidbiao()
 
 
